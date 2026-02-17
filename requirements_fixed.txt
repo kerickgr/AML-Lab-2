@@ -1,0 +1,21 @@
+# Фиксированные совместимые версии
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+scipy==1.10.1
+
+# OpenML
+openml==0.14.0
+
+# Стабильная версия pymfe
+pymfe==0.4.0
+
+# Визуализация
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Прогресс-бары и утилиты
+tqdm==4.65.0
+joblib==1.2.0
+pyyaml==6.0
+python-dotenv==1.0.0

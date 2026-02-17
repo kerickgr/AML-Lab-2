@@ -1,0 +1,30 @@
+groups:
+  general:
+    - n_features
+    - n_instances
+    - n_classes
+    - dimensionality
+
+  statistical:
+    - mean
+    - sd
+    - skewness
+    - kurtosis
+    - correlation_mean
+
+  information:
+    - class_entropy
+    - mutual_info_mean
+    - noise_signal_ratio
+
+  landmarking:
+    - decision_tree_accuracy
+    - naive_bayes_accuracy
+    - one_nn_accuracy
+
+extraction:
+  summary: ["mean", "sd"]
+  random_state: 42
+
+filtering:
+  correlation_threshold: 0.95

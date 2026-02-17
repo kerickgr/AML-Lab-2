@@ -1,0 +1,16 @@
+connection:
+  server: "https://www.openml.org/api/v1"
+  cache_directory: "data/cache/openml_cache"
+
+filters:
+  task_type: "Supervised Classification"
+  status: "active"
+  min_instances: 100
+  max_instances: 10000
+  min_features: 3
+  max_features: 500
+  min_classes: 2
+
+download:
+  download_data: true
+  format: "dataframe"
